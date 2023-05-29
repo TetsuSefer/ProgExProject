@@ -42,10 +42,10 @@ public class Account {
             String[] permissions = {"SELECT"};
             grantPermissionsToAccount(username, "accounts", permissions);
 
-            System.out.println("Account and user created successfully!");
+            System.out.println("Account and user successfully created!");
             return accountId;
         } catch (SQLException e) {
-            System.out.println("Error creating account and user: " + e.getMessage());
+            System.out.println("Error while creating account/user: " + e.getMessage());
         }
 
         return -1; // Error occurred, return -1
