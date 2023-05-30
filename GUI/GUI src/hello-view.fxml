@@ -55,7 +55,7 @@
                                         <Font size="14.0" />
                                     </font>
                                 </JFXButton>
-                                <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Women">
+                                <JFXButton fx:id="searchWomen" prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Women">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
