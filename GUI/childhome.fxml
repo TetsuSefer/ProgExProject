@@ -14,30 +14,26 @@
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane prefHeight="52.0" prefWidth="905.0" style="-fx-background-color: LIGHTGREY;" />
-      <VBox layoutY="128.0" prefHeight="386.0" prefWidth="176.0">
+      <VBox layoutY="125.0" prefHeight="389.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;">
          <children>
-            <VBox prefHeight="389.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;">
-               <children>
-                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </JFXButton>
-                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
-                     <font>
-                        <Font size="14.0" />
-                     </font>
-                  </JFXButton>
-               </children>
-            </VBox>
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
          </children>
       </VBox>
-      <Label fx:id="Menuback" layoutX="24.0" layoutY="67.0" prefHeight="39.0" prefWidth="85.0" text="Menu">
+      <Label fx:id="Menuback" layoutX="25.0" layoutY="66.0" prefHeight="39.0" prefWidth="85.0" text="Menu">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -49,7 +45,8 @@
             </ImageView>
          </graphic>
       </Label>
-      <HBox alignment="CENTER" layoutX="260.0" layoutY="57.0" prefHeight="58.0" prefWidth="437.0">
+      <TextField layoutX="727.0" layoutY="73.0" />
+      <HBox alignment="CENTER" layoutX="242.0" layoutY="69.0" prefHeight="58.0" prefWidth="437.0">
          <children>
             <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Kids">
                <font>
@@ -68,15 +65,15 @@
             </JFXButton>
          </children>
       </HBox>
-      <TextField layoutX="732.0" layoutY="74.0" />
-      <Pane layoutX="218.0" layoutY="128.0" prefHeight="135.0" prefWidth="667.0" style="-fx-background-color: #2d94a8;">
+      <Pane layoutX="209.0" layoutY="131.0" prefHeight="189.0" prefWidth="667.0" style="-fx-background-color: #2d94a8;">
          <children>
-            <Button layoutX="20.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="jeans" />
+            <Button layoutX="20.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Accesoires" />
             <Button layoutX="126.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Pants" />
             <Button layoutX="226.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Jackets" />
             <Button layoutX="337.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Shoes" />
             <Button layoutX="438.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Socks" />
             <Button layoutX="543.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="T-Shirts" />
+            <Button layoutX="278.0" layoutY="117.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Dresses" />
          </children>
       </Pane>
    </children>
