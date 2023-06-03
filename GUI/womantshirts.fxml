@@ -76,22 +76,22 @@
       </Label>
       <Label layoutX="745.0" layoutY="379.0" text="Red T-Shirt">
          <font>
-            <Font name="System Bold" size="17.0" />
+            <Font name="System Bold" size="21.0" />
          </font>
       </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="209.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/bluetshirt.jpg" />
+            <Image url="@images_website_px/bluetshirtforwoman.JPG" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="450.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="491.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/greentshirtformen.jpg" />
+            <Image url="@images_website_px/greentshirtforwomen.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="717.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/redtshirtformen.jpg" />
+            <Image url="@images_website_px/redtshirtforwomen.jpg" />
          </image>
       </ImageView>
    </children>

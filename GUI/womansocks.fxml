@@ -64,34 +64,34 @@
             </JFXButton>
          </children>
       </HBox>
-      <Label layoutX="234.0" layoutY="377.0" text="Blue T-Shirt">
+      <Label layoutX="234.0" layoutY="377.0" text="Blue Socks">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Label>
-      <Label layoutX="482.0" layoutY="379.0" text="Green T-Shirt">
+      <Label layoutX="482.0" layoutY="379.0" text="Green Socks">
          <font>
             <Font name="System Bold" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="745.0" layoutY="379.0" text="Red T-Shirt">
+      <Label layoutX="745.0" layoutY="379.0" text="Red Socks">
          <font>
-            <Font name="System Bold" size="17.0" />
+            <Font name="System Bold" size="21.0" />
          </font>
       </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="236.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/bluetshirt.jpg" />
+            <Image url="@images_website_px/bluesocksforswoman.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="450.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="461.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/greentshirtformen.jpg" />
+            <Image url="@images_website_px/greensocksforman.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="133.0" fitWidth="176.0" layoutX="730.0" layoutY="212.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/redtshirtformen.jpg" />
+            <Image url="@images_website_px/redsocksforwoman.JPG" />
          </image>
       </ImageView>
    </children>

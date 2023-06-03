@@ -64,34 +64,34 @@
             </JFXButton>
          </children>
       </HBox>
-      <Label layoutX="234.0" layoutY="377.0" text="Blue T-Shirt">
+      <Label layoutX="242.0" layoutY="381.0" text="Blue Jacket">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
       </Label>
-      <Label layoutX="482.0" layoutY="379.0" text="Green T-Shirt">
+      <Label layoutX="459.0" layoutY="380.0" text="Green Jacket">
          <font>
             <Font name="System Bold" size="23.0" />
          </font>
       </Label>
-      <Label layoutX="745.0" layoutY="379.0" text="Red T-Shirt">
+      <Label layoutX="745.0" layoutY="379.0" text="Red Jacket">
          <font>
             <Font name="System Bold" size="17.0" />
          </font>
       </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="266.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/bluetshirt.jpg" />
+            <Image url="@images_website_px/bluejacketforwomen.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="450.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="461.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/greentshirtformen.jpg" />
+            <Image url="@images_website_px/greenjacketforwoman.jpg" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="691.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="724.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@images_website_px/redtshirtformen.jpg" />
+            <Image url="@images_website_px/redjackets.jpg" />
          </image>
       </ImageView>
    </children>
