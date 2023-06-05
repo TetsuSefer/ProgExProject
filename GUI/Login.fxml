@@ -38,13 +38,13 @@
 
 <AnchorPane fx:id="anchropane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller">
    <children>
-      <PasswordField fx:id="passwordField" layoutX="286.0" layoutY="247.0" prefHeight="25.0" prefWidth="185.0" text="tami" />
+      <PasswordField fx:id="passwordField" layoutX="286.0" layoutY="247.0" prefHeight="25.0" prefWidth="185.0" />
       <Text layoutX="166.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FashionOne">
          <font>
             <Font size="46.0" />
          </font>
       </Text>
-      <TextField fx:id="usernameField" layoutX="286.0" layoutY="187.0" prefHeight="25.0" prefWidth="185.0" text="tami" />
+      <TextField fx:id="usernameField" layoutX="286.0" layoutY="187.0" prefHeight="25.0" prefWidth="185.0" />
       <Text layoutX="135.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username:" wrappingWidth="89.2259521484375">
          <font>
             <Font name="System Bold" size="14.0" />
