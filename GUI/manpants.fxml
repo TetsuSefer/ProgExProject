@@ -10,22 +10,22 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ClothingController">
    <children>
       <Pane prefHeight="52.0" prefWidth="905.0" style="-fx-background-color: LIGHTGREY;" />
       <VBox layoutY="125.0" prefHeight="389.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;">
          <children>
-            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
+            <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="14.0" />
                </font>
@@ -39,7 +39,7 @@
          <graphic>
             <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/images_website_px/pngwing.com.png" />
+                  <Image url="@images_website_px/pngwing.png" />
                </image>
             </ImageView>
          </graphic>
@@ -47,52 +47,23 @@
       <TextField layoutX="727.0" layoutY="73.0" />
       <HBox alignment="CENTER" layoutX="242.0" layoutY="69.0" prefHeight="58.0" prefWidth="437.0">
          <children>
-            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Kids">
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Kids">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Women">
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Women">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
-            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Men">
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Men">
                <font>
                   <Font size="14.0" />
                </font>
             </JFXButton>
          </children>
       </HBox>
-      <ImageView fitHeight="177.0" fitWidth="199.0" layoutX="242.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images_website_px/bluepants.jpg" />
-         </image>
-      </ImageView>
-      <Label layoutX="262.0" layoutY="379.0" text="Blue Pants">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="177.0" fitWidth="176.0" layoutX="472.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images_website_px/greenpants.jpg" />
-         </image>
-      </ImageView>
-      <Label layoutX="507.0" layoutY="379.0" text="Green Pants">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="679.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images_website_px/redpants.PNG" />
-         </image>
-      </ImageView>
-      <Label layoutX="745.0" layoutY="379.0" text="Red Pants">
-         <font>
-            <Font name="System Bold" size="15.0" />
-         </font>
-      </Label>
+      <VBox fx:id="ClothingVBox" layoutX="304.0" layoutY="145.0" prefHeight="300.0" prefWidth="388.0" />
    </children>
 </Pane>

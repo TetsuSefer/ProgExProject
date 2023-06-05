@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane prefHeight="52.0" prefWidth="905.0" style="-fx-background-color: LIGHTGREY;" />
       <VBox layoutY="125.0" prefHeight="389.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;">
@@ -64,11 +60,6 @@
             </JFXButton>
          </children>
       </HBox>
-      <ImageView fitHeight="177.0" fitWidth="199.0" layoutX="242.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@images_website_px/bluesocks.jpg" />
-         </image>
-      </ImageView>
       <Label layoutX="262.0" layoutY="379.0" text="Blue Socks">
          <font>
             <Font name="System Bold" size="15.0" />
@@ -94,5 +85,10 @@
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
+      <ImageView fitHeight="177.0" fitWidth="162.0" layoutX="241.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images_website_px/greenpants.jpg" />
+         </image>
+      </ImageView>
    </children>
 </Pane>

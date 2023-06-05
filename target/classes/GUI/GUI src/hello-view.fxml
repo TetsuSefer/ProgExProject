@@ -14,17 +14,17 @@
                     <children>
                         <VBox prefHeight="300.0" prefWidth="176.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
                             <children>
-                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
                                 </JFXButton>
-                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
+                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
                                 </JFXButton>
-                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
+                                <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
@@ -50,17 +50,17 @@
                         </HBox>
                         <HBox alignment="CENTER" layoutY="55.0" prefHeight="58.0" prefWidth="437.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="176.0" AnchorPane.rightAnchor="176.0" AnchorPane.topAnchor="55.0">
                             <children>
-                                <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Kids">
+                                <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../style.css" text="Kids">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
                                 </JFXButton>
-                                <JFXButton fx:id="searchWomen" prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Women">
+                                <JFXButton fx:id="searchWomen" prefHeight="31.0" prefWidth="124.0" stylesheets="@../style.css" text="Women">
                                     <font>
                                         <Font size="14.0" />
                                     </font>
                                 </JFXButton>
-                                <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@style.css" text="Men">
+                                <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../style.css" text="Men">
                                     <font>
                                         <Font size="14.0" />
                                     </font>

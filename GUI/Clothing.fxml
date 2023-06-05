@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ClothingDetailsController">
+    <HBox spacing="10">
+        <ImageView fx:id="imageView" fitWidth="150" fitHeight="150" preserveRatio="true" />
+        <VBox spacing="5">
+            <Label text="Product: " />
+            <Label fx:id="productLabel" />
+            <Label text="Price: " />
+            <Label fx:id="priceLabel" />
+            <Label text="Gender: " />
+            <Label fx:id="genderLabel" />
+            <Label text="Size: " />
+            <Label fx:id="sizeLabel" />
+            <Label text="Filter: " />
+            <Label fx:id="filterLabel" />
+        </VBox>
+    </HBox>
+</VBox>
