@@ -15,6 +15,7 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import javafx.util.Duration;
+import javafx.event.ActionEvent;
 
 import java.io.IOException;
 import java.net.URL;
@@ -51,7 +52,7 @@ public class Controller implements Initializable {
         slide.setToX(translateX);
         slide.play();
     }
-
+/*
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         List<Clothing> clothingList = getAllClothingFromDatabase();
@@ -60,7 +61,7 @@ public class Controller implements Initializable {
             try {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/GUI/Clothing.fxml"));
                 VBox clothingItem = fxmlLoader.load();
-                ClothingController controller = fxmlLoader.getController();
+                ManPantsController controller = fxmlLoader.getController();
                 controller.setClothing(clothing);
 
                 clothingContainer.getChildren().add(clothingItem);
@@ -69,7 +70,10 @@ public class Controller implements Initializable {
             }
         }
     }
+*/
+public void initialize(URL url, ResourceBundle resourceBundle) {
 
+}
     public void handleLoginButton(javafx.event.ActionEvent actionEvent) {
         String username = usernameField.getText();
         String password = passwordField.getText();
@@ -79,7 +83,9 @@ public class Controller implements Initializable {
 
         if (loggedIn) {
             try {
-                Parent root = FXMLLoader.load(getClass().getResource("/GUI/manpants.fxml"));
+                FXMLLoader loader = new FXMLLoader((getClass().getResource("manpants.fxml")));
+                Parent root = loader.load();
+                ManPantsController controller = loader.getController();
                 Scene scene = new Scene(root);
                 Stage currentStage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
                 currentStage.setScene(scene);
@@ -126,7 +132,7 @@ public class Controller implements Initializable {
 
         return clothingList;
     }
-
+/*/
     public void openClothingWindow(Clothing clothing) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/GUI/ClothingDetails.fxml"));
@@ -142,5 +148,5 @@ public class Controller implements Initializable {
             e.printStackTrace();
         }
     }
-
+/*/
 }

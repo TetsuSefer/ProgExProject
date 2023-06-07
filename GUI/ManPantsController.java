@@ -6,7 +6,6 @@ import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
@@ -14,7 +13,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class ClothingController implements Initializable {
+public class ManPantsController implements Initializable {
 
     @FXML
     private ImageView imageView;
@@ -56,7 +55,7 @@ public class ClothingController implements Initializable {
 
     public void openClothingDetails() {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/GUI/manpants.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/GUI/Clothing.fxml"));
             Parent root = fxmlLoader.load();
 
             ClothingDetailsController controller = fxmlLoader.getController();
@@ -68,9 +67,8 @@ public class ClothingController implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
+
 
 
 }
