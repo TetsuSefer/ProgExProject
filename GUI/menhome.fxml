@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="52.0" prefWidth="905.0" style="-fx-background-color: LIGHTGREY;" />
+      <VBox layoutY="128.0" prefHeight="386.0" prefWidth="176.0">
+         <children>
+            <VBox prefHeight="389.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;">
+               <children>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <Label fx:id="Menuback" layoutX="24.0" layoutY="67.0" prefHeight="39.0" prefWidth="85.0" text="Menu">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/images_website_px/pngwing.com.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <HBox alignment="CENTER" layoutX="260.0" layoutY="57.0" prefHeight="58.0" prefWidth="437.0">
+         <children>
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Kids">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Women">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Men">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </HBox>
+      <TextField layoutX="732.0" layoutY="74.0" />
+      <Pane layoutX="196.0" layoutY="263.0" prefHeight="135.0" prefWidth="667.0" style="-fx-background-color: #2d94a8;">
+         <children>
+            <Button layoutX="20.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="jeans" />
+            <Button layoutX="126.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Pants" />
+            <Button layoutX="226.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Jackets" />
+            <Button layoutX="337.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Shoes" />
+            <Button layoutX="438.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="Socks" />
+            <Button layoutX="543.0" layoutY="42.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="85.0" text="T-Shirts" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

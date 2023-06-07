@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane prefHeight="514.0" prefWidth="905.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane fx:id="Slider" opacity="0.85" prefHeight="454.0" prefWidth="176.0" style="-fx-background-color: #2d94a8;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="300.0" prefWidth="176.0" AnchorPane.bottomAnchor="150.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+               <children>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="My Account" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Orders" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton contentDisplay="RIGHT" prefHeight="40.0" prefWidth="176.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Registration" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="109.0" prefWidth="789.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="52.0" prefWidth="789.0" style="-fx-background-color: LIGHTGREY;" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <HBox alignment="CENTER_RIGHT" layoutX="589.0" layoutY="54.0" prefHeight="58.0" prefWidth="200.0" AnchorPane.bottomAnchor="11.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="55.0">
+               <children>
+                  <ImageView fitHeight="19.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/images_website_px/lupe2.png" />
+                     </image>
+                  </ImageView>
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="213.0" layoutY="55.0" prefHeight="58.0" prefWidth="437.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="213.0" AnchorPane.rightAnchor="139.0" AnchorPane.topAnchor="55.0">
+               <children>
+                  <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Kids">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Women">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton prefHeight="31.0" prefWidth="124.0" stylesheets="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/style.css" text="Men">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <Label fx:id="Menu" layoutX="14.0" layoutY="57.0" prefHeight="39.0" prefWidth="85.0" text="Menu">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/images_website_px/pngwing.com.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+            <Label fx:id="Menuback" layoutX="14.0" layoutY="57.0" prefHeight="39.0" prefWidth="85.0" text="Menu">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Downloads/GUI2/GUI2/src/main/resources/GUI/images_website_px/pngwing.com.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Label>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
